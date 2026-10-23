@@ -1,8 +1,8 @@
 """
 Lumen — приложение для управления Bluetooth LED-лентой.
 
-Установка:   pip install -U customtkinter bleak pystray
-Запуск:      python led_control.py
+Установка:   pip install -r requirements.txt
+Запуск:      python main.py
 Автозапуск:  включается переключателем в настройках (⚙), запускает приложение
              свёрнутым в трей и само подключается к сохранённой ленте.
 Выключение:  при завершении работы Windows лента выключается (настройка в ⚙);
